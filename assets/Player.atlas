@@ -1,0 +1,103 @@
+animations {
+  id: "idle"
+  images {
+    image: "/assets/warped-files/warped-files/PNG/sprites/player/player-idle/player-idle-1.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/warped-files/warped-files/PNG/sprites/player/player-idle/player-idle-2.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/warped-files/warped-files/PNG/sprites/player/player-idle/player-idle-3.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/warped-files/warped-files/PNG/sprites/player/player-idle/player-idle-4.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 5
+  flip_horizontal: 0
+  flip_vertical: 0
+}
+animations {
+  id: "Run"
+  images {
+    image: "/assets/warped-files/warped-files/PNG/sprites/player/player-run/player-run-5.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/warped-files/warped-files/PNG/sprites/player/player-run/player-run-9.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/warped-files/warped-files/PNG/sprites/player/player-run/player-run-2.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/warped-files/warped-files/PNG/sprites/player/player-run/player-run-6.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/warped-files/warped-files/PNG/sprites/player/player-run/player-run-8.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/warped-files/warped-files/PNG/sprites/player/player-run/player-run-7.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/warped-files/warped-files/PNG/sprites/player/player-run/player-run-1.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/warped-files/warped-files/PNG/sprites/player/player-run/player-run-3.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/warped-files/warped-files/PNG/sprites/player/player-run/player-run-4.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 10
+  flip_horizontal: 0
+  flip_vertical: 0
+}
+animations {
+  id: "Jump"
+  images {
+    image: "/assets/warped-files/warped-files/PNG/sprites/player/player-jump/player-jump-2.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/warped-files/warped-files/PNG/sprites/player/player-jump/player-jump-3.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/warped-files/warped-files/PNG/sprites/player/player-jump/player-jump-4.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/warped-files/warped-files/PNG/sprites/player/player-jump/player-jump-5.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/warped-files/warped-files/PNG/sprites/player/player-jump/player-jump-6.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/warped-files/warped-files/PNG/sprites/player/player-jump/player-jump-1.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 10
+  flip_horizontal: 0
+  flip_vertical: 0
+}
+margin: 1
+extrude_borders: 2
+inner_padding: 2
+max_page_width: 0
+max_page_height: 0
+rename_patterns: ""
